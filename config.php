@@ -2,10 +2,10 @@
 // config.php
 session_start();
 
-$host = "localhost";
-$user = "root";      // apna MySQL username
-$pass = "";          // apna MySQL password
-$db   = "digital_library";
+$host = "sql113.infinityfree.com";
+$user = "if0_40674768";      // apna MySQL username
+$pass = "SauravA1B2";          // apna MySQL password
+$db   = "if0_40674768_LibraryDatabase";
 
 $conn = new mysqli($host, $user, $pass, $db);
 

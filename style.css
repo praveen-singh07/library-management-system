@@ -335,3 +335,108 @@ footer {
         padding: 40px 6%;
     }
 }
+
+
+/* ===============================
+   DARK MODE COLOR OVERRIDES
+   =============================== */
+
+body {
+    background: #12181f;
+    color: #e5e7eb;
+}
+
+/* Header / Navbar */
+header,
+footer {
+    background: #0f172a;
+    color: #f9fafb;
+}
+
+nav a {
+    color: #f9fafb;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(135deg, #1e293b, #0f766e);
+    color: #f9fafb;
+}
+
+/* Cards (Light cards in dark UI) */
+.book-card,
+.form-wrapper,
+.stat-card,
+table {
+    background: #1f2937;
+    color: #e5e7eb;
+}
+
+/* Titles & text */
+.book-title,
+.section-title,
+.form-title {
+    color: #f9fafb;
+}
+
+.book-meta {
+    color: #cbd5e1;
+}
+
+/* Inputs */
+input,
+textarea,
+select {
+    background: #111827;
+    color: #f9fafb;
+    border: 1px solid #374151;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #14b8a6;
+}
+
+/* Buttons */
+.btn {
+    background: #14b8a6;
+    color: #042f2e;
+}
+
+.btn.secondary {
+    background: #334155;
+    color: #f9fafb;
+}
+
+.btn:disabled {
+    background: #475569;
+    color: #94a3b8;
+}
+
+/* Badges */
+.badge {
+    background: #14b8a6;
+    color: #042f2e;
+}
+
+/* Tables */
+th {
+    background: #0f172a;
+    color: #f9fafb;
+}
+
+tbody tr:nth-child(even) {
+    background: #111827;
+}
+
+/* Messages */
+.message.success {
+    background: #0f766e;
+    color: #ecfeff;
+}
+
+.message.error {
+    background: #7c2d12;
+    color: #ffedd5;
+}
